@@ -53,8 +53,11 @@ body {
   flex-wrap: wrap;
 }
 
+.main-header > h1 {
+  margin-right: 1rem;
+}
+
 .main-header > nav {
-  margin-left: 1rem;
   align-self: center;
 }
 
@@ -65,7 +68,7 @@ body {
 }
 
 .main-header > nav > ul > li {
-  margin-left: 1rem;
+  margin: 0 0.5rem;
   line-height: 1.4rem;
 }
 
