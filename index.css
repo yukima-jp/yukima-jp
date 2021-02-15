@@ -9,6 +9,18 @@ h3, p {
   margin-bottom: 0.5rem;
 }
 
+h1 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
 .main-header a, .main-header a:link, .main-header a:visited, .main-header a:hover, .main-header a:active {
   color:rgb(240, 240, 240);
 }
@@ -27,8 +39,10 @@ html {
 
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0px;
+  padding-bottom: 2rem;
+  position: relative;
 }
 
 .main-header {
@@ -36,10 +50,7 @@ body {
   color: rgb(240, 240, 240);
   padding: 0.5rem 1rem;
   display: flex;
-}
-
-.main-header > h1 {
-  font-size: 1.8rem;
+  flex-wrap: wrap;
 }
 
 .main-header > nav {
@@ -55,7 +66,7 @@ body {
 
 .main-header > nav > ul > li {
   margin-left: 1rem;
-  line-height: 1.8rem;
+  line-height: 1.4rem;
 }
 
 .main-header > nav > .navicon-game {
@@ -71,7 +82,6 @@ body {
 .main-container-base {
   display: flex;
   justify-content: center;
-  padding-bottom: 1.4rem;
 }
 
 .main-container {
@@ -80,7 +90,6 @@ body {
 }
 
 .main-container > .heading {
-  font-size: 1.6rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -91,7 +100,7 @@ body {
   background-color: rgb(226, 226, 226);
   bottom: 0;
   font-size: 0.8rem;
-  position: fixed;
+  position: absolute;
   text-align: center;
 }
 
