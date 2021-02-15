@@ -41,7 +41,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   margin: 0px;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   position: relative;
 }
 
@@ -99,7 +99,7 @@ body {
 
 .main-footer {
   width: 100%;
-  line-height: 1.4rem;
+  line-height: 3rem;
   background-color: rgb(226, 226, 226);
   bottom: 0;
   font-size: 0.8rem;
