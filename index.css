@@ -137,7 +137,7 @@ body {
   align-items: center;
 }
 
-.article > header > .icon {
+.article > header .icon {
   width: 4rem;
   height: 4rem;
 }
